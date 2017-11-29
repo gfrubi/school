@@ -1,0 +1,20 @@
+&pars_input
+N = 801 
+nt = 400000
+freqsdf = 400
+freq = 4
+freqhor = 4
+cfl = .4
+disip = -.02
+derorder=2
+dissorder= 4
+STMETH=3
+gamma = 1.5
+amp = 1000000.
+lambda= .1
+initime= 0.
+rhoin=0.
+rhoout=0.6
+rhoads=.1
+rhoh=0.52
+/

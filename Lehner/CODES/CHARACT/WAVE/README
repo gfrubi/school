@@ -1,0 +1,10 @@
+this code integrates the eqn 2 phi,ur - phi,rr = 0
+in u,r coords defined as u=t-x and r = x
+it also implements boundary conditions so that the field
+stays in the comp box
+these bc. are phi=0 at left boundary
+and g with value such that phi results 0 at the boundary.
+the former is trivially done in the integration of the first order
+variable g = phi,r
+while the latter right after each RK step is finished, thus overwritting
+the values of g and phi at the last point
