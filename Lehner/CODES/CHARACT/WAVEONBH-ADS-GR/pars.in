@@ -1,0 +1,21 @@
+&pars_input
+N = 1601 
+nt = 16000
+freqsdf = 160
+freq = 40
+freqhor = 4
+cfl = .4
+disip = -.04
+derorder=2
+dissorder= 4
+STMETH=3
+gamma = 1.5
+amp = 10000000.
+lambda= .1
+initime= 0.
+rhoin=0.
+rhoout=0.8
+rhoads=1.0
+madm=2.0
+scalaronly=.FALSE.
+/

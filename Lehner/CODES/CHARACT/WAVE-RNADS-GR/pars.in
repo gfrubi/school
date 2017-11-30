@@ -1,0 +1,27 @@
+&pars_input
+N = 1601 
+nt = 50000
+freqsdf = 100
+freq = 500
+freqfreq = 5
+freqhor = 4
+cfl = .25
+disip = -.04
+derorder=2
+dissorder= 4
+STMETH=3
+gamma = 1.5
+amp = 0.001         ! Initial amplitude of the scalar field.
+lambda= .1
+initime= 0.
+rhoin=0.          ! Infinity
+rhoout=6.        ! Inner boundary. Check to make sure this is inside the BH. (See first few lines of output.)
+rhoads=1.0        ! AdS radius. Leave it at 1.
+madm=0.17568          ! ADM mass. Interested in small black holes.
+qadm=-0.338656     ! ADM charge. There's a factor of 2 in the definition, so this is close to extremal.
+q=16.             ! Coupling between complex scalar and EM field.
+scalaronly=.FALSE.   ! Turn off backreaction of scalar on Maxwell and metric
+resumelevel=0
+iprefix=""
+oprefix=""
+/
